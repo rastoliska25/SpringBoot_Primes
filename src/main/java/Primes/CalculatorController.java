@@ -10,8 +10,8 @@ public class CalculatorController {
 
     @GetMapping("/kalkulacka")
     public String printCalculator(Model model) {
-        model.addAttribute("kalkulacka", new CalculatorForm());
-        return "kalkulacka";
+        model.addAttribute("calculator", new CalculatorForm());
+        return "calculator";
     }
 
 

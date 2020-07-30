@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Spring kalkulacka</h1>
-<form action="#" th:action="@{/kalkulacka}" th:object="${kalkulacka}" method="post">
+<form action="#" th:action="@{/kalkulacka}" th:object="${calculator}" method="post">
     First number: <input type="number" th:field="*{number1}" /><br />
     Operation: <select th:field="*{operation}">
     <option th:value="'+'" th:text="'Plus'"></option>
