@@ -15,7 +15,7 @@ public class CalculatorService {
             calculator.setResult(calculator.getNumber1() * calculator.getNumber2());
         } else if(calculator.getOperation().equals("/")) {
             if(calculator.getNumber2() == 0){
-                throw new IllegalArgumentException("Second number cannot be 0!");
+                throw new IllegalArgumentException("Druhé číslo nemôže byť!!!!");
             }
             calculator.setResult(calculator.getNumber1() / calculator.getNumber2());
         }
