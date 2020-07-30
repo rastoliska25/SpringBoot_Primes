@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class CalculatorController {
 
-    @GetMapping("/calculator")
+    @GetMapping("/kalkulacka")
     public String printCalculator(Model model) {
-        model.addAttribute("calculator", new CalculatorForm());
-        return "calculator";
+        model.addAttribute("kalkulacka", new CalculatorForm());
+        return "kalkulacka";
     }
 
 
